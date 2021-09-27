@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessengerService", "MessengerService\MessengerService.csproj", "{ED29D1EE-D512-4565-B5BF-EF3F824037EC}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MessengerDB", "MessengerDB\MessengerDB.sqlproj", "{42C88004-33DB-488F-BAE1-6FC9728652B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerServer", "MessengerServer\MessengerServer.csproj", "{955A721C-F7C0-4937-8409-A046CBACC8F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED29D1EE-D512-4565-B5BF-EF3F824037EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED29D1EE-D512-4565-B5BF-EF3F824037EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED29D1EE-D512-4565-B5BF-EF3F824037EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED29D1EE-D512-4565-B5BF-EF3F824037EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C88004-33DB-488F-BAE1-6FC9728652B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C88004-33DB-488F-BAE1-6FC9728652B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C88004-33DB-488F-BAE1-6FC9728652B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{42C88004-33DB-488F-BAE1-6FC9728652B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C88004-33DB-488F-BAE1-6FC9728652B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C88004-33DB-488F-BAE1-6FC9728652B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{955A721C-F7C0-4937-8409-A046CBACC8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955A721C-F7C0-4937-8409-A046CBACC8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955A721C-F7C0-4937-8409-A046CBACC8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955A721C-F7C0-4937-8409-A046CBACC8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3905435-F32A-4DF5-8EDF-094A396CCD1B}
+	EndGlobalSection
+EndGlobal

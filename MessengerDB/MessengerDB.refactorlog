@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Move Schema" Key="041cdc69-1983-4a89-b773-e0cbe1d3db0e" ChangeDateTime="09/27/2021 08:48:57">
+    <Property Name="ElementName" Value="[dbo].[Users]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="MDB" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0c090702-e824-4e51-9964-c7c1232420e3" ChangeDateTime="09/27/2021 08:53:25">
+    <Property Name="ElementName" Value="[MDB].[PrivateMessages].[Attachment]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[MDB].[PrivateMessages]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AttachmentPath" />
+  </Operation>
+</Operations>
